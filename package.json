@@ -1,0 +1,29 @@
+{
+  "name": "cdktf-bun-biome",
+  "version": "1.0.0",
+  "main": "main.js",
+  "types": "main.ts",
+  "license": "MPL-2.0",
+  "private": true,
+  "scripts": {
+    "get": "cdktf get",
+    "build": "tsc",
+    "synth": "cdktf synth"
+  },
+  "dependencies": {
+    "cdktf": "^0.20.4",
+    "constructs": "^10.3.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.6.0",
+    "@types/node": "^20.11.25",
+    "typescript": "^5.4.2"
+  },
+  "engines": {
+    "node": "20.11.0"
+  },
+  "volta": {
+    "node": "20.11.0",
+    "bun": "1.0.29"
+  }
+}
